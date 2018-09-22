@@ -1,0 +1,24 @@
+{
+    "name": "cyberpaste/yii2-rsa-models",
+    "version": "0.0.1",
+    "description": "Yii2 rsa Car Models",
+    "minimum-stability": "dev",
+    "type": "yii2-extension",
+    "homepage": "https://github.com/cyberpaste/yii2-rsa-models",
+    "support": {
+        "issues": "https://github.com/cyberpaste/yii2-rsa-models/issues?state=open",
+        "source": "https://github.com/cyberpaste/yii2-rsa-models"
+    },
+    "autoload": {
+        "psr-4": {
+            "cyberpaste\\extensions\\CarRsa\\": "src/"
+        }
+    },
+    "repositories": [{
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+    }],
+    "require": {
+        "yiisoft/yii2": ">=2.0.12"
+    }
+}
